@@ -1,0 +1,3 @@
+set $mod Mod4
+
+bindsym $mod+Return exec i3-sensible-terminal
