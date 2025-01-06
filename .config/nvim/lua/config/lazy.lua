@@ -1,4 +1,5 @@
 require("lazy").setup({
+	{ import = "plugins.formatting" },
 	{ import = "plugins.highlighting" },
 	{ import = "plugins.linting" },
 	{ import = "plugins.lsp" },
