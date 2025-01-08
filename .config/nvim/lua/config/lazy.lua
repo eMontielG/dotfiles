@@ -4,5 +4,6 @@ require("lazy").setup({
 	{ import = "plugins.linting" },
 	{ import = "plugins.lsp" },
 	{ import = "plugins.navigation" },
+	{ import = "plugins.theming" },
 	{ import = "plugins.tooling" },
 })
