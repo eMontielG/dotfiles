@@ -6,4 +6,6 @@ source /usr/share/zinit/zinit.zsh
 
 zinit light zsh-users/zsh-syntax-highlighting
 
+bindkey -v
+
 eval "$(starship init zsh)"
