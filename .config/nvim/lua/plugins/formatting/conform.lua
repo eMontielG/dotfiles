@@ -4,6 +4,7 @@ return {
 		local formatter = require("conform")
 		formatter.setup({
 			formatters_by_ft = {
+				css = { "prettierd" },
 				lua = { "stylua" },
 			},
 		})
