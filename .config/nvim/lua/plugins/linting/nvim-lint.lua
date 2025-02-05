@@ -3,6 +3,7 @@ return {
 	config = function()
 		local linter = require("lint")
 		linter.linters_by_ft = {
+			css = { "stylelint" },
 			lua = { "luacheck" },
 		}
 		vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "CmdlineEnter" }, {
