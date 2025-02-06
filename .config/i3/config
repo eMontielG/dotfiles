@@ -52,7 +52,7 @@ client.background        $base
 
 # bar
 bar {
-	font pango:Fira Code
+	font pango:IBM Plex Mono 10
 	colors {
 		background         $base
 		statusline         $text
