@@ -3,6 +3,7 @@
   "catppuccin": { "branch": "main", "commit": "f67b886d65a029f12ffa298701fb8f1efd89295d" },
   "conform.nvim": { "branch": "master", "commit": "70019124aa4f2e6838be9fbd2007f6d13b27a96d" },
   "fzf-lua": { "branch": "main", "commit": "8efb28fd24e9d55694460d0ac8fa147d7276d984" },
+  "gitsigns.nvim": { "branch": "main", "commit": "9772ce68a9a6d156f3f2166bfd0a17a09ab37eba" },
   "lazydev.nvim": { "branch": "main", "commit": "8620f82ee3f59ff2187647167b6b47387a13a018" },
   "lualine.nvim": { "branch": "master", "commit": "2a5bae925481f999263d6f5ed8361baef8df4f83" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "97d9f1d3ad205dece6bcafd1d71cf1507608f3c7" },
