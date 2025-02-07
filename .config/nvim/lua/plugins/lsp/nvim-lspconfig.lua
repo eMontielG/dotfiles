@@ -5,6 +5,7 @@ return {
 		local capabilities = require("blink.cmp").get_lsp_capabilities()
 		local lspconfig = require("lspconfig")
 
+		lspconfig.cssls.setup({ capabilities = capabilities })
 		lspconfig.lua_ls.setup({ capabilities = capabilities })
 
 		vim.keymap.set({ "n" }, "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
