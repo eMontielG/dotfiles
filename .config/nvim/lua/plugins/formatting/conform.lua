@@ -6,6 +6,8 @@ return {
 			formatters_by_ft = {
 				css = { "prettierd" },
 				lua = { "stylua" },
+				javascript = { "prettierd" },
+				typescript = { "prettierd" },
 			},
 		})
 		vim.api.nvim_create_autocmd({ "BufWritePre" }, {

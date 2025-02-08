@@ -5,6 +5,7 @@ return {
 			ensure_installed = {
 				"cssls",
 				"lua_ls",
+				"ts_ls",
 			},
 		})
 	end,
