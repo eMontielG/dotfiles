@@ -11,15 +11,15 @@ i3-wm
 iwd
 kitty
 lazygit
+less
 luarocks
 neovim
 nvim-lazy
 nvm
 openssh
-rofi
 starship
 stow
-ttf-fira-code
+ttf-ibm-plex
 unzip
 wget
 xorg-server
