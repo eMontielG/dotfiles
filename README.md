@@ -21,7 +21,6 @@ starship
 stow
 ttf-ibm-plex
 unzip
-wget
 xorg-server
 xorg-xinit
 xorg-xranr
