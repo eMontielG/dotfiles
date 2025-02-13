@@ -54,7 +54,7 @@ client.background        $base
 # bar
 bar {
 	font pango:IBM Plex Mono 10
-	position top
+	mode hide
 	colors {
 		background         $base
 		statusline         $text
