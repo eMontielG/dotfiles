@@ -53,7 +53,7 @@ client.background        $base
 
 # bar
 bar {
-	font pango:IBM Plex Mono 10
+	font pango:IBM Plex Mono 8
 	mode hide
 	colors {
 		background         $base
