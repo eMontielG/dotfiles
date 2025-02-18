@@ -11,5 +11,6 @@ return {
 			},
 		})
 		vim.keymap.set({ "n" }, "<leader>ff", "<cmd>lua require('fzf-lua').files()<CR>")
+		vim.keymap.set({ "n" }, "<leader>rg", "<cmd>lua require('fzf-lua').grep()<CR>")
 	end,
 }
