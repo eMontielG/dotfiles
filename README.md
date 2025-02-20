@@ -1,31 +1,31 @@
 ## Installed packages
 
-bat
-brave-bin
-broadcom-wl
-eza
-fastfetch
-fzf
-git
-i3-wm
-iwd
-kitty
-lazygit
-less
-luarocks
-neovim
-nvim-lazy
-nvm
-openssh
-starship
-stow
-ttf-ibm-plex
-unzip
-xorg-server
-xorg-xinit
-xorg-xranr
-xorg-xsetroot
-yay
-zinit
-zip
-zsh
+- bat
+- brave-bin
+- docker
+- eza
+- fastfetch
+- fzf
+- git
+- i3-wm
+- iwd
+- kitty
+- lazygit
+- less
+- luarocks
+- neovim
+- nvim-lazy
+- nvm
+- openssh
+- starship
+- stow
+- ttf-ibm-plex
+- unzip
+- xorg-server
+- xorg-xinit
+- xorg-xranr
+- xorg-xsetroot
+- yay
+- zinit
+- zip
+- zsh
