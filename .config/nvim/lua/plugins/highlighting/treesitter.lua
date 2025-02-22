@@ -5,6 +5,7 @@ return {
 		require("nvim-treesitter.configs").setup({
 			auto_install = false,
 			ensure_installed = {
+				"c",
 				"css",
 				"javascript",
 				"html",
