@@ -10,6 +10,7 @@ return {
 				"javascript",
 				"html",
 				"lua",
+				"markdown",
 				"query",
 				"typescript",
 			},
