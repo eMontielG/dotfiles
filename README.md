@@ -1,6 +1,5 @@
 ## Installed packages
 
-- bat
 - brave-bin
 - docker
 - eza
