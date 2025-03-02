@@ -6,9 +6,7 @@ vim.g.netrw_keepdir = 0
 vim.g.netrw_liststyle = 3
 vim.g.netrw_winsize = 25
 
-vim.keymap.set({ "n" }, "<Leader>gg", ":copen | :silent :grep ")
-
-vim.opt.grepprg = "grep -HRIn $* ."
+vim.opt.cursorline = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 16
