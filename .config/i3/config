@@ -1,4 +1,5 @@
 set $background #000000
+set $border #c8c8c8
 set $rosewater #f5e0dc
 set $flamingo #f2cdcd
 set $pink #f5c2e7
@@ -45,7 +46,7 @@ bindsym $mod+9 workspace 9
 default_border pixel
 
 # target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $lavender
+client.focused           $lavender $base $text  $rosewater $border
 client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
 client.unfocused         $overlay0 $base $text  $rosewater $overlay0
 client.urgent            $peach    $base $peach $overlay0  $peach
@@ -69,3 +70,7 @@ bar {
 		urgent_workspace   $base  $red      $crust
   }
 }
+
+gaps inner 16
+
+exec_always --no-startup-id picom
