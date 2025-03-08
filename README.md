@@ -1,11 +1,17 @@
 ## Installed packages
 
+- bat
+- blender
 - brave-bin
+- btop
 - docker
 - eza
 - fastfetch
+- ffmpeg
 - fzf
 - git
+- godot
+- i3blocks
 - i3-wm
 - iwd
 - kitty
@@ -16,7 +22,10 @@
 - nvim-lazy
 - nvm
 - openssh
+- picom
+- scrot
 - starship
+- steam
 - stow
 - ttf-ibm-plex
 - unzip
