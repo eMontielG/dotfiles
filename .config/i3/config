@@ -1,5 +1,5 @@
-set $background #000000
-set $border #c8c8c8
+set $mod Mod4
+
 set $rosewater #f5e0dc
 set $flamingo #f2cdcd
 set $pink #f5c2e7
@@ -27,7 +27,32 @@ set $base #1e1e2e
 set $mantle #181825
 set $crust #11111b
 
-set $mod Mod4
+# target                 title     bg    text   indicator  border
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+client.background        $base
+
+# bar
+bar {
+	font pango:IBM Plex Mono 10
+	mode hide
+	status_command i3blocks
+  colors {
+    background         $base
+    statusline         $text
+    focused_statusline $text
+    focused_separator  $base
+
+    # target           border bg        text
+    focused_workspace  $base  $mauve    $crust
+    active_workspace   $base  $surface2 $text
+    inactive_workspace $base  $base     $text
+    urgent_workspace   $base  $red      $crust
+  }
+}
 
 bindsym $mod+Shift+q kill
 bindsym $mod+Return exec i3-sensible-terminal
@@ -43,33 +68,12 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
 default_border pixel
-
-# target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $border
-client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-client.unfocused         $overlay0 $base $text  $rosewater $overlay0
-client.urgent            $peach    $base $peach $overlay0  $peach
-client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
-client.background        $background
-
-# bar
-bar {
-	font pango:IBM Plex Mono 8
-	mode hide
-	colors {
-		background         $base
-		statusline         $text
-		focused_statusline $text
-		focused_separator  $base
-
-		# target           border bg        text
-		focused_workspace  $base  $mauve    $crust
-		active_workspace   $base  $surface2 $text
-		inactive_workspace $base  $base     $text
-		urgent_workspace   $base  $red      $crust
-  }
-}
 
 gaps inner 16
 
