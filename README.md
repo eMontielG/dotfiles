@@ -31,7 +31,7 @@
 - unzip
 - xorg-server
 - xorg-xinit
-- xorg-xranr
+- xorg-xrandr
 - xorg-xsetroot
 - yay
 - zinit
