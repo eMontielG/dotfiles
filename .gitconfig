@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[user]
+	signingkey = /home/emontielg/.ssh/id_ed25519.pub
+[tag]
+	gpgsign = true
+[core]
+	editor = nvim
