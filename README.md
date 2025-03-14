@@ -11,6 +11,7 @@
 - fzf
 - git
 - godot
+- hsetroot
 - i3blocks
 - i3-wm
 - iwd
@@ -32,7 +33,6 @@
 - xorg-server
 - xorg-xinit
 - xorg-xrandr
-- xorg-xsetroot
 - yay
 - zinit
 - zip
