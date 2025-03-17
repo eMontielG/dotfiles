@@ -1,6 +1,6 @@
 export NVM_DIR="$HOME/.nvm"
 export TERMINAL="kitty"
-export FZF_DEFAULT_COMMAND="find . -type f ! -path '*git*'"
+export FZF_DEFAULT_COMMAND="find . \( -path '*node_modules*' -o -path '*git*' \) -prune -o -type f -print"
 export FZF_DEFAULT_OPTS="--style minimal"
 
 source /usr/share/nvm/init-nvm.sh
