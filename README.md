@@ -5,6 +5,7 @@
 - brave-bin
 - btop
 - docker
+- dunst
 - eza
 - fastfetch
 - ffmpeg
@@ -24,6 +25,7 @@
 - nvm
 - openssh
 - picom
+- rofi
 - scrot
 - starship
 - steam
