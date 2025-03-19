@@ -1,23 +1,18 @@
 ## Installed packages
 
-- bat
 - blender
-- brave-bin
 - btop
 - docker
 - dunst
-- eza
 - fastfetch
 - ffmpeg
 - fzf
 - git
 - godot
 - hsetroot
-- i3blocks
 - i3-wm
 - iwd
 - kitty
-- lazygit
 - less
 - luarocks
 - neovim
@@ -36,6 +31,8 @@
 - xorg-xinit
 - xorg-xrandr
 - yay
+- yt-dlp
+- zen-browser-bin
 - zinit
 - zip
 - zsh
