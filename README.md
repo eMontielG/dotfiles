@@ -3,6 +3,7 @@
 - blender
 - btop
 - docker
+- docker-compose
 - dunst
 - fastfetch
 - ffmpeg
@@ -20,6 +21,7 @@
 - nvm
 - openssh
 - picom
+- qbittorrent
 - rofi
 - scrot
 - starship
