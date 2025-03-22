@@ -15,6 +15,7 @@
 - iwd
 - kitty
 - less
+- libreoffice-still
 - luarocks
 - neovim
 - nvim-lazy
