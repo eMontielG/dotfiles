@@ -8,12 +8,11 @@ return {
 		end
 
 		fzf_lua.setup({
-			header = true,
 			winopts = {
 				fullscreen = true,
 			},
 		})
-		vim.keymap.set({ "n" }, "<leader>ff", find_files)
+		vim.keymap.set({ "n" }, "<leader>ff", find_files, { desc = "Fuzzily find files" })
 		vim.keymap.set({ "n" }, "<leader>gg", "<cmd>lua require('fzf-lua').grep()<CR>")
 		vim.keymap.set({ "n" }, "<leader>cc", "<cmd>lua require('fzf-lua').quickfix()<CR>")
 	end,
