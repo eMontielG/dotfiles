@@ -7,6 +7,7 @@ vim.g.netrw_liststyle = 3
 vim.g.netrw_winsize = 25
 
 vim.opt.cursorline = true
+vim.opt.laststatus = 0
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 16
