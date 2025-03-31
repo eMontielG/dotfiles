@@ -10,7 +10,6 @@
 - fzf
 - git
 - godot
-- hsetroot
 - i3-wm
 - iwd
 - kitty
@@ -22,7 +21,6 @@
 - nvim-lazy
 - nvm
 - openssh
-- picom
 - qbittorrent
 - rofi
 - scrot
