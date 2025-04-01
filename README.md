@@ -15,7 +15,6 @@
 - kitty
 - less
 - lf
-- libreoffice-still
 - luarocks
 - neovim
 - nvim-lazy
