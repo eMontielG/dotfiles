@@ -15,6 +15,7 @@
 - kitty
 - less
 - lf
+- libratbag
 - luarocks
 - neovim
 - nvim-lazy
