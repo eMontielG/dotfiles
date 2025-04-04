@@ -7,6 +7,7 @@
 - dunst
 - fastfetch
 - ffmpeg
+- firefox
 - fzf
 - git
 - godot
@@ -34,7 +35,6 @@
 - xorg-xrandr
 - yay
 - yt-dlp
-- zen-browser-bin
 - zinit
 - zip
 - zsh
