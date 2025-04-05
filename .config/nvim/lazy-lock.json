@@ -5,10 +5,10 @@
   "fzf-lua": { "branch": "main", "commit": "8633175d4e74cd6013f75af7682c7e8ac133056a" },
   "gitsigns.nvim": { "branch": "main", "commit": "2bc3b472bbc2484214549af4d9f38c127b886a55" },
   "lazydev.nvim": { "branch": "main", "commit": "a1b78b2ac6f978c72e76ea90ae92a94edf380cfc" },
-  "lualine.nvim": { "branch": "master", "commit": "f4f791f67e70d378a754d02da068231d2352e5bc" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "805c31ec6bfb557975143712ecff6956d3227141" },
   "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
   "nvim-lint": { "branch": "master", "commit": "6e9dd545a1af204c4022a8fcd99727ea41ffdcc8" },
   "nvim-lspconfig": { "branch": "master", "commit": "6c17f8656f667727b27f5f598463afedb7791b18" },
-  "nvim-treesitter": { "branch": "master", "commit": "6d957c22cb48a734b009a69d03c18d20042c4754" }
+  "nvim-treesitter": { "branch": "master", "commit": "6d957c22cb48a734b009a69d03c18d20042c4754" },
+  "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
 }
