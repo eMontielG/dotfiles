@@ -7,13 +7,17 @@ return {
 			fzf_lua.files({ cmd = os.getenv("FZF_DEFAULT_COMMAND") })
 		end
 
+		local function grep_files()
+			fzf_lua.grep()
+		end
+
 		fzf_lua.setup({
 			winopts = {
 				fullscreen = true,
 			},
 		})
 		vim.keymap.set({ "n" }, "<leader>ff", find_files, { desc = "Fuzzily find files" })
-		vim.keymap.set({ "n" }, "<leader>gg", "<cmd>lua require('fzf-lua').grep()<CR>")
+		vim.keymap.set({ "n" }, "<leader>gg", grep_files, { desc = "Fuzzily grep files" })
 		vim.keymap.set({ "n" }, "<leader>cc", "<cmd>lua require('fzf-lua').quickfix()<CR>")
 	end,
 }
