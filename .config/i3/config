@@ -39,16 +39,17 @@ bindsym $mod+Shift+q kill
 
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+space exec rofi -show run
-bindsym $mod+b exec firefox
-bindsym $mod+g exec godot
-bindsym $mod+m exec blender
-bindsym $mod+t exec qbittorrent
+bindsym $mod+z exec blender
+bindsym $mod+x exec firefox
+bindsym $mod+c exec godot
+bindsym $mod+v exec qbittorrent
+bindsym $mod+b exec steam
 
 # Split in horizontal orientation
-# bindsym $mod+Shift+h split h
+ bindsym $mod+Shift+p split h
 
 # Split in vertical orientation
-# bindsym $mod+Shift+v split v
+ bindsym $mod+Shift+o split v
 
 # Enter fullscreen mode for the focused container
 # bindsym $mod+f fullscreen toggle
