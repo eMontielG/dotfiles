@@ -1,6 +1,7 @@
-# Set key modifier
+# Set modifier variable
 set $mod Mod4
 
+# Set navigation variables
 set $left h
 set $down j
 set $up k
@@ -12,11 +13,6 @@ bindsym $mod+Shift+q kill
 # Open program binds
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+space exec rofi -show run
-bindsym $mod+z exec blender
-bindsym $mod+x exec firefox
-bindsym $mod+c exec godot
-bindsym $mod+v exec qbittorrent
-bindsym $mod+b exec steam
 
 # Split in horizontal orientation
  bindsym $mod+Shift+p split h
@@ -52,15 +48,25 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
+# Resize mode modifier
 bindsym $mod+r mode "resize"
 
 mode "resize" {
-	bindsym $left  resize shrink width 10 px or 10 ppt
-	bindsym $down  resize grow height 10 px or 10 ppt
-	bindsym $up    resize shrink height 10 px or 10 ppt
-	bindsym $right resize grow width 10 px or 10 ppt
+	bindsym $left  resize shrink width 16 px
+	bindsym $down  resize grow height 16 px
+	bindsym $up    resize shrink height 16 px
+	bindsym $right resize grow width 16 px
 
 	bindsym Escape mode "default"
 }
 
 default_border none
+
+hide_edge_borders both
+
+exec --no-startup-id dunst
+
+exec --no-startup-id i3-msg "workspace 1; exec kitty"
+exec --no-startup-id i3-msg "workspace 2; exec firefox"
+exec --no-startup-id i3-msg "workspace 3; exec discord"
+exec --no-startup-id i3-msg "workspace 3; exec steam"
