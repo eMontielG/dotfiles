@@ -31,6 +31,10 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 
+# Cycle through workspaces
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
 # Move focused container to Workspace
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2
@@ -62,8 +66,6 @@ mode "resize" {
 
 default_border none
 
-hide_edge_borders both
-
 assign [class="kitty"] 1
 assign [class="firefox"] 2
 assign [class="discord"] 3
@@ -71,7 +73,7 @@ assign [class="steam"] 4
 
 exec --no-startup-id dunst
 
-exec --no-startup-id i3-msg "workspace 1; exec kitty"
-exec --no-startup-id i3-msg "workspace 2; exec firefox"
-exec --no-startup-id i3-msg "workspace 3; exec discord"
-exec --no-startup-id i3-msg "workspace 3; exec steam"
+exec --no-startup-id kitty
+exec --no-startup-id firefox
+exec --no-startup-id discord
+exec --no-startup-id steam
