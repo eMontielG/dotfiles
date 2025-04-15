@@ -69,6 +69,7 @@ default_border none
 
 assign [class="kitty"] 1
 assign [class="firefox"] 2
+assign [class="chrome"] 2
 assign [class="discord"] 3
 assign [class="steam"] 4
 
