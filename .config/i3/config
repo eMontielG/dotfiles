@@ -72,6 +72,7 @@ assign [class="firefox"] 2
 assign [class="chrome"] 2
 assign [class="discord"] 3
 assign [class="steam"] 4
+assign [class="qBittorrent"] 5
 
 exec --no-startup-id dunst
 
