@@ -67,6 +67,7 @@ mode "resize" {
 # Hide borders and title bar
 default_border none
 
+# Assign specific programs to workspaces
 assign [class="kitty"] 1
 assign [class="firefox"] 2
 assign [class="chrome"] 2
