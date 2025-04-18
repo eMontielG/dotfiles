@@ -2,6 +2,7 @@
 
 - blender
 - btop
+- discord
 - docker
 - docker-compose
 - dunst
@@ -11,17 +12,19 @@
 - fzf
 - git
 - godot
+- google-chrome
 - i3-wm
-- iwd
 - kitty
 - less
 - lf
-- libratbag
 - luarocks
+- mangohud
 - neovim
+- networkmanager
 - nvim-lazy
 - nvm
 - openssh
+- piper
 - qbittorrent
 - rofi
 - scrot
