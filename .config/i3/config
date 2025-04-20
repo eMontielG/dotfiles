@@ -68,15 +68,15 @@ mode "resize" {
 default_border none
 
 # Assign specific programs to workspaces
-assign [class="steam"] 1
+assign [class="kitty"] 1
 assign [class="discord"] 2
-assign [class="firefox"] 3
-assign [class="kitty"] 4
+assign [class="steam"] 3
+assign [class="firefox"] 4
 assign [class="chrome"] 5
 
 exec --no-startup-id dunst
 
-exec --no-startup-id steam
-exec --no-startup-id discord
-exec --no-startup-id firefox
 exec --no-startup-id kitty
+exec --no-startup-id discord
+exec --no-startup-id steam
+exec --no-startup-id firefox
