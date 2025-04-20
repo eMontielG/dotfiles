@@ -41,3 +41,10 @@
 - zinit
 - zip
 - zsh
+
+### Desktop
+- mesa-utils
+- rocm-smi-lib (Required for btop's GPU monitoring)
+
+### Laptop
+- broadcom-wl
