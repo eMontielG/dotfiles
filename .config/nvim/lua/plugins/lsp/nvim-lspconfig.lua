@@ -6,15 +6,7 @@ return {
 		local lspconfig = require("lspconfig")
 
 		lspconfig.cssls.setup({ capabilities = capabilities })
-		lspconfig.lua_ls.setup({
-			capabilities = capabilities,
-			on_init = function(client)
-				client.server_capabilities.semanticTokensProvider = nil
-			end,
-		})
+		lspconfig.lua_ls.setup({ capabilities = capabilities })
 		lspconfig.ts_ls.setup({ capabilities = capabilities })
-
-		vim.keymap.set({ "n" }, "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
-		vim.keymap.set({ "n" }, "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>")
 	end,
 }
