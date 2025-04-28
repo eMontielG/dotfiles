@@ -1,4 +1,4 @@
-font pango:IBM Plex Mono 12
+font pango:IBM Plex Mono 8
 
 # Set modifier variable
 set $mod Mod4
