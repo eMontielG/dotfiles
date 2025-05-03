@@ -51,6 +51,7 @@
 - zsh
 
 ### Desktop
+- mesa-demos
 - mesa-utils
 - rocm-smi-lib (Required for btop's GPU monitoring)
 
