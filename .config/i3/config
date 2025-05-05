@@ -18,10 +18,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+space exec rofi -show run
 
 # Split in horizontal orientation
- bindsym $mod+Shift+p split h
+bindsym $mod+Shift+p split h
 
 # Split in vertical orientation
- bindsym $mod+Shift+o split v
+bindsym $mod+Shift+o split v
 
 # Switch to Workspace
 bindsym $mod+1 workspace 1
