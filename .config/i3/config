@@ -79,6 +79,7 @@ assign [class="chrome"] 5
 
 exec --no-startup-id dunst
 
+# Start programs
 exec --no-startup-id kitty
 exec --no-startup-id discord
 exec --no-startup-id steam
