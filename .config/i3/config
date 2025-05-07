@@ -77,5 +77,11 @@ assign [class="steam"] 3
 assign [class="firefox"] 4
 assign [class="chrome"] 5
 
+# Start daemons
 exec --no-startup-id dunst
+
+# Start programs
 exec --no-startup-id kitty
+exec --no-startup-id discord
+exec --no-startup-id steam
+exec --no-startup-id firefox
