@@ -26,7 +26,6 @@
 - less
 - lf
 - luarocks
-- mangohud
 - neovim
 - networkmanager
 - nvim-lazy
