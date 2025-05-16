@@ -73,8 +73,8 @@ default_border none
 # Assign specific programs to workspaces
 assign [class="kitty"] 1
 assign [class="firefox"] 2
-assign [class="steam"] 3
-assign [class="discord"] 4
+assign [class="discord"] 3
+assign [class="steam"] 4
 
 # Start daemons
 exec --no-startup-id dunst
@@ -82,5 +82,5 @@ exec --no-startup-id dunst
 # Start programs
 exec --no-startup-id kitty
 exec --no-startup-id firefox
-exec --no-startup-id steam
 exec --no-startup-id discord
+exec --no-startup-id steam
