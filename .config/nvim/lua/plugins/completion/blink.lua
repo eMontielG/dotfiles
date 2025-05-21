@@ -1,9 +1,11 @@
 return {
 	"saghen/blink.cmp",
-	version = "*",
+	version = "1.*",
 	config = function()
 		require("blink.cmp").setup({
-			signature = { enabled = true },
+			sources = {
+				default = { "lsp", "path", "snippets", "buffer" },
+			},
 		})
 	end,
 }
