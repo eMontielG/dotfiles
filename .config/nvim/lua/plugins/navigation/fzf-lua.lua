@@ -16,8 +16,8 @@ return {
 				fullscreen = true,
 			},
 		})
+
 		vim.keymap.set({ "n" }, "<leader>ff", find_files, { desc = "Fuzzily find files" })
 		vim.keymap.set({ "n" }, "<leader>gg", grep_files, { desc = "Fuzzily grep files" })
-		vim.keymap.set({ "n" }, "<leader>cc", "<cmd>lua require('fzf-lua').quickfix()<CR>")
 	end,
 }
