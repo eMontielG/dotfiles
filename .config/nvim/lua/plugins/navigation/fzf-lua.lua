@@ -13,6 +13,7 @@ return {
 
 		fzf_lua.setup({
 			winopts = {
+				border = "none",
 				fullscreen = true,
 			},
 		})
