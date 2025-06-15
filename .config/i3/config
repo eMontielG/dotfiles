@@ -58,6 +58,7 @@ bindsym $mod+l focus right
 # Resize mode modifier
 bindsym $mod+r mode "resize"
 
+# Resizing mode
 mode "resize" {
 	bindsym $left  resize shrink width 16 px
 	bindsym $down  resize grow height 16 px
