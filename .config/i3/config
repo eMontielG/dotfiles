@@ -65,6 +65,7 @@ mode "resize" {
 	bindsym $up    resize shrink height 16 px
 	bindsym $right resize grow width 16 px
 
+	# Escape resizing mode
 	bindsym Escape mode "default"
 }
 
