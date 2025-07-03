@@ -10,6 +10,11 @@
 
 ## Installed packages
 
+- android-platform
+- android-sdk
+- android-sdk-build-tools
+- android-sdk-cmdline-tools-latest
+- android-sdk-platform-tools
 - blender
 - btop
 - discord
@@ -19,6 +24,7 @@
 - fastfetch
 - ffmpeg
 - firefox
+- flutter-bin
 - fzf
 - git
 - godot
@@ -58,3 +64,7 @@
 
 ### Laptop
 - broadcom-wl
+
+
+#### Setting up Flutter development envirionment
+https://archive.is/VJa74
