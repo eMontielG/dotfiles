@@ -17,6 +17,12 @@ export TERMINAL="kitty"
 export FZF_DEFAULT_COMMAND="find . \( -path '*node_modules*' -o -path '*git*' \) -prune -o -type f -print"
 export FZF_DEFAULT_OPTS="--style minimal"
 
+export ANDROID_HOME=/opt/android-sdk
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
+
 alias ls="ls --color=always"
 
 source /usr/share/nvm/init-nvm.sh
