@@ -29,3 +29,9 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
+
+[dart]
+format = "via [Dart $version](bold blue) "
+
+[nodejs]
+format = "via [Node $version](bold green) "
