@@ -35,3 +35,6 @@ format = "via [Dart $version](bold blue) "
 
 [nodejs]
 format = "via [Node $version](bold green) "
+
+[package]
+symbol = "package "
